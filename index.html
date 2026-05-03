@@ -95,36 +95,35 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section" style="position: relative; overflow: hidden;">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="" style="filter: brightness(0.6) contrast(1.1);">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Kishan Dakshitha</h2>
-        <p>I'm a <span class="typed" data-typed-items="QA Engineer, Developer, Designer,Freelancer">QA Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="position: relative; z-index: 10; text-align: center; padding: 6rem 2rem;">
+        <h2 style="font-size: 3.5rem; font-weight: 800; color: #fff; margin-bottom: 1rem; letter-spacing: -1px; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">Kishan Dakshitha</h2>
+        <p style="font-size: 1.5rem; color: #fff; font-weight: 500; text-shadow: 0 2px 8px rgba(0,0,0,0.3);">I'm a <span class="typed" data-typed-items="QA Automation Engineer, AI QA Engineer, Software Tester" style="color: #00D4FF; font-weight: 700;">QA Automation Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
             class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
 
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section" style="background: linear-gradient(135deg, rgba(0,126,167,0.02) 0%, rgba(0,126,167,0.05) 100%); padding-top: 4rem; padding-bottom: 4rem;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Welcome to my professional portfolio! With over 8 years of hands-on experience in the field of IT, I am dedicated to ensuring the delivery of high-quality, reliable software products. My expertise
-          spans both manual and automated testing, where I employ a variety of testing methodologies to identify and resolve issues efficiently.</p>
+        <h2 style="font-size: 2.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1rem; letter-spacing: -0.5px;">About</h2>
+        <p style="font-size: 1.05rem; color: #555; line-height: 1.8;">QA Automation Engineer with 10+ years of experience delivering reliable, scalable software across enterprise platforms. Specialized in end-to-end automation using Playwright (TypeScript) and a modern QA stack including API and performance testing. Proven track record in improving test coverage, reducing defects, and supporting high-frequency release cycles. Experienced in AI quality assurance, including designing and deploying LLM evaluation systems to ensure accuracy and reliability of AI-generated content.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,126,167,0.15); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 16px 32px rgba(0,126,167,0.25)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 24px rgba(0,126,167,0.15)';">
           </div>
           <div class="col-lg-8 content">
-            <h2>Software QA Engineer &amp; Web Developer.</h2>
+            <h2 style="font-size: 1.8rem; color: #007EA7; font-weight: 700; margin-bottom: 1.5rem;">QA Automation Engineer with 10+ Years Experience</h2>
             <p class="fst-italic py-3">
               I’m a detail-oriented and proactive QA Engineer with a strong background in creating and executing
               comprehensive test plans. My journey in the world of quality assurance began with a Bachelor's degree in
@@ -132,31 +131,34 @@
               industries including finance, healthcare, and e-commerce, constantly honing my skills and adapting to new
               challenges.
             </p>
-            <div class="row">
+            <div class="row" style="gap: 2rem;">
               <div class="col-lg-5">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>7 Oct 1993</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+9471 456 3265</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span> Sri Lanka</span></li>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Birthday:</strong> <span style="color: #666;">7 Oct 1993</span></li>
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Phone:</strong> <span style="color: #666;">+94714563265</span></li>
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Country:</strong> <span style="color: #666;"> Sri Lanka</span></li>
                 </ul>
               </div>
               <div class="col-lg-5">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc. in IT</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong><span>kishanthantiriwatta@gmail.com</span></li>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Age:</strong> <span style="color: #666;" id="age"></span></li>
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Degree:</strong> <span style="color: #666;">BSc. in IT</span></li>
+                  <li style="margin-bottom: 0.8rem; font-size: 1rem;"><i class="bi bi-chevron-right" style="color: #007EA7; font-weight: bold; margin-right: 0.5rem;"></i> <strong style="color: #333;">Email:</strong><span style="color: #666;">kishan.thantiriwatta@gmail.com</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
+            <p class="py-3" style="font-size: 1rem; color: #555; line-height: 1.8;">
               I specialize in:<br>
-              - <b>Automation Testing</b>: Leveraging tools like Playwright,Selenium, TestNG, and Jenkins to automate
-              repetitive tasks and improve testing efficiency.<br>
-              - <b>Manual Testing</b>: Conducting thorough exploratory testing to uncover hidden issues that automated
-              tests might miss.<br>
-              - <b>Test Management</b>: Utilizing JIRA and other tools to manage test cases, track bugs, and collaborate
-              effectively with development teams.<br>
-              - <b>Performance Testing</b>: Ensuring applications can handle high loads and perform well under stress.
+              - <b style="color: #007EA7;">Automation Testing</b>: <span style="color: #666;">Leveraging tools like Playwright,Selenium, TestNG, and Jenkins to automate
+              repetitive tasks and improve testing efficiency.</span><br>
+              - <b style="color: #007EA7;">Manual Testing</b>: <span style="color: #666;">Conducting thorough exploratory testing to uncover hidden issues that automated
+              tests might miss.</span><br>
+              - <b style="color: #007EA7;">Test Management</b>: <span style="color: #666;">Utilizing JIRA and other tools to manage test cases, track bugs, and collaborate
+              effectively with development teams.</span><br>
+              - <b style="color: #007EA7;">Performance Testing</b>: <span style="color: #666;">Ensuring applications can handle high loads and perform well under stress.</span>
+            </p>
+            <p class="py-3" style="font-size: 1rem; color: #555; line-height: 1.8;">
+              Currently, I work as a <b style="color: #007EA7;">QA Automation Engineer</b> at <b style="color: #007EA7;">Sitecore</b> (via IGT1), focusing on the <b style="color: #007EA7;">Content Hub – Content Operations</b> team in a hybrid environment. I maintain and improve end-to-end automation using <b style="color: #007EA7;">Playwright with TypeScript</b>, ensuring the quality of enterprise-scale digital experience platforms. Beyond traditional QA, I've expanded into <b style="color: #007EA7;">AI Quality Assurance</b> by designing and implementing an <b style="color: #007EA7;">LLM-based evaluation system</b> for assessing AI-generated content quality. This "LLM as a Judge" system is now deployed and running in production, with continuous enhancements to evaluation metrics and test scenarios. I work within an Agile/Scrum environment, collaborating with cross-functional teams on bi-weekly releases and delivering reliable solutions at enterprise scale.
             </p>
           </div>
         </div>
@@ -220,199 +222,155 @@
 
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row skills-content skills-animation" style="padding-bottom: 3rem;">
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/NET-Framework-Logo-700x394.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">.NET</h5>
-                <p class="card-text"></p>
-              </div>
+        <!-- Primary QA Testing Skills -->
+        <h3 style="margin-bottom: 1.5rem; color: #007EA7; font-weight: 600; font-size: 1.3rem; letter-spacing: -0.3px;">Core QA Testing Skills</h3>
+        <div class="row" style="padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid #e9ecef; justify-content: center; gap: 1.5rem;">
+          
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/playwright.png" alt="Playwright" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Playwright</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/Python-logo-notext.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Python</h5>
-                <p class="card-text"></p>
-              </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Typescript_logo_2020.svg.png" alt="TypeScript" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">TypeScript</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/Java_programming_language_logo.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Java</h5>
-                <p class="card-text"></p>
-              </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/selenium-seeklogo.svg" alt="Selenium" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Selenium</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/React-icon.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">React Native</h5>
-                <p class="card-text"></p>
-              </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <i class="bi bi-cloud-upload" style="font-size: 40px; color: #4CAF50; display: block; margin-bottom: 8px;"></i>
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Postman</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/Git_icon.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Git Source Control</h5>
-                <p class="card-text"></p>
-              </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <i class="bi bi-speedometer2" style="font-size: 40px; color: #FF6B3B; display: block; margin-bottom: 8px;"></i>
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">K6</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top" src="./assets/img/HTML_CSS.png" alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">HTML & CSS</h5>
-                <p class="card-text"></p>
-              </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <i class="bi bi-robot" style="font-size: 40px; color: #9C27B0; display: block; margin-bottom: 8px;"></i>
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">AI/LLM</p>
             </div>
           </div>
-          <!-- End Skills Item -->
 
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top" src="./assets/img/playwright.png" alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Playwright</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/JavaScript-logo.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">JavaScript</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-
-          <div class="col-lg-3" style="margin-left: 15%;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  style="padding-top: 75px;"
-                  src="./assets/img/Amazon_Web_Services_Logo.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">AWS</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/Typescript_logo_2020.svg.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">TypeScript</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/selenium-seeklogo.svg"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Selenium</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-
-          <div class="col-lg-3" style="margin-left: 25%;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  style="height: 124px;margin-top: 70px;"
-                  src="./assets/img/Mysql_logo.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">My SQL</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
-          <div class="col-lg-3" style=" margin-bottom: 40px;">
-            <div class="card" style="width: 18rem;">
-              <div class="d-flex justify-content-center">
-                <img class="card-img-top"
-                  src="./assets/img/sql-server.png"
-                  alt="Card image cap">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">SQL Server</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Skills Item -->
         </div>
+
+        <!-- Programming Languages -->
+        <h3 style="margin-bottom: 1.5rem; color: #007EA7; font-weight: 600; font-size: 1.3rem; letter-spacing: -0.3px;">Programming Languages</h3>
+        <div class="row" style="padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid #e9ecef; justify-content: center; gap: 1.5rem;">
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/JavaScript-logo.png" alt="JavaScript" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">JavaScript</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Python-logo-notext.svg.png" alt="Python" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Python</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Java_programming_language_logo.svg.png" alt="Java" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Java</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/NET-Framework-Logo-700x394.png" alt=".NET" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">.NET</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Databases -->
+        <h3 style="margin-bottom: 1.5rem; color: #007EA7; font-weight: 600; font-size: 1.3rem; letter-spacing: -0.3px;">Databases</h3>
+        <div class="row" style="padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid #e9ecef; justify-content: center; gap: 1.5rem;">
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/sql-server.png" alt="SQL Server" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">SQL Server</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Mysql_logo.png" alt="MySQL" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">MySQL</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Infrastructure & DevOps -->
+        <h3 style="margin-bottom: 1.5rem; color: #007EA7; font-weight: 600; font-size: 1.3rem; letter-spacing: -0.3px;">Infrastructure & DevOps</h3>
+        <div class="row" style="padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid #e9ecef; justify-content: center; gap: 1.5rem;">
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Amazon_Web_Services_Logo.svg.png" alt="AWS" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">AWS</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <i class="bi bi-box2" style="font-size: 40px; color: #2496ED; display: block; margin-bottom: 8px;"></i>
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Docker</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/Git_icon.svg.png" alt="Git" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Git</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Additional Skills -->
+        <h3 style="margin-bottom: 1.5rem; color: #007EA7; font-weight: 600; font-size: 1.3rem; letter-spacing: -0.3px;">Additional Skills</h3>
+        <div class="row" style="padding-bottom: 2rem; justify-content: center; gap: 1.5rem;">
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <img src="./assets/img/HTML_CSS.png" alt="HTML & CSS" style="width: 40px; height: 40px; object-fit: contain; margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto;">
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">HTML & CSS</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="margin-bottom: 1rem; display: flex; justify-content: center;">
+            <div style="width: 120px; text-align: center; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.15)'; this.style.borderColor='#007EA7';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#dee2e6';">
+              <i class="bi bi-kanban" style="font-size: 40px; color: #2196F3; display: block; margin-bottom: 8px;"></i>
+              <p style="font-size: 0.85rem; margin: 0; color: #333; font-weight: 500;">Agile/Scrum</p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
       </div>
@@ -420,11 +378,11 @@
     </section><!-- /Skills Section -->
 
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <section id="resume" class="resume section" style="background: #f8f9fb; padding-top: 4rem; padding-bottom: 4rem;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2 style="font-size: 2.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1rem; letter-spacing: -0.5px;">Resume</h2>
         <p></p>
       </div><!-- End Section Title -->
 
@@ -433,27 +391,27 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title" style="font-size: 1.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.8rem; border-bottom: 2px solid #007EA7;">Sumary</h3>
 
-            <div class="resume-item pb-0">
-              <h4>Kishan Thantiriwatta</h4>
-              <p><em>Skilled QA Engineer with over 8 years of experience in the IT industry, specializing in both manual and automated
+            <div class="resume-item pb-0" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.3rem; color: #007EA7; font-weight: 700; margin-bottom: 0.8rem;">Kishan Thantiriwatta</h4>
+              <p style="font-size: 1rem; color: #555; line-height: 1.8; font-style: italic;"><em>Skilled QA Engineer with over 8 years of experience in the IT industry, specializing in both manual and automated
               testing, supported by a background in software development. Proven track record of delivering critical projects for the
               Singapore government, demonstrating exceptional proficiency in C# and Java, with hands-on experience using automated
               testing tools such as Playwright, Selenium and Katalon.</em></p>
-              <ul>
-                <li>Kurunegala, Sri Lanka</li>
-                <li>(+94) 71 456 3265</li>
-                <li>kishan.thantiriwatta@gmail.com</li>
+              <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                <li style="margin-bottom: 0.5rem; color: #555;"><i class="bi bi-geo-alt" style="color: #007EA7; margin-right: 0.5rem;"></i>Kurunegala, Sri Lanka</li>
+                <li style="margin-bottom: 0.5rem; color: #555;"><i class="bi bi-telephone" style="color: #007EA7; margin-right: 0.5rem;"></i>(+94) 71 456 3265</li>
+                <li style="color: #555;"><i class="bi bi-envelope" style="color: #007EA7; margin-right: 0.5rem;"></i>kishan.thantiriwatta@gmail.com</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Science in Information Technology</h4>
-              <h5>2013 - 2016</h5>
-              <p><em>SRI LANKA INSTITUTE OF INFORMATION TECHNOLOGY (SLIIT)</em></p>
-              <p>SLIIT is recognized as 7th in Sri Lanka and within the top 200 in South Asia in the QS Asia University Ranking 2023</p>
+            <h3 class="resume-title" style="font-size: 1.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.8rem; border-bottom: 2px solid #007EA7;">Education</h3>
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">Bachelor of Science in Information Technology</h4>
+              <h5 style="color: #007EA7; font-weight: 600; margin-bottom: 0.5rem;">2013 - 2016</h5>
+              <p style="font-style: italic; color: #007EA7; margin-bottom: 0.5rem;"><em>SRI LANKA INSTITUTE OF INFORMATION TECHNOLOGY (SLIIT)</em></p>
+              <p style="color: #555; font-size: 0.95rem;">SLIIT is recognized as 7th in Sri Lanka and within the top 200 in South Asia in the QS Asia University Ranking 2023</p>
             </div><!-- Edn Resume Item -->
 
             <!--div class="resume-item">
@@ -465,60 +423,73 @@
                 dila</p>
             </div--><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Certifications</h3>
-            <div class="resume-item">
-              <h4>Google IT Automation with Python</h4>
-              <h5>Coursera</h5>              
+            <h3 class="resume-title" style="font-size: 1.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.8rem; border-bottom: 2px solid #007EA7;">Certifications</h3>
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">Google IT Automation with Python</h4>
+              <h5 style="color: #007EA7; font-weight: 600;">Coursera</h5>              
             </div><!-- Edn Resume Item -->
 
-            <div class="resume-item">
-              <h4>DevOps on AWS Specialization</h4>
-              <h5>Coursera</h5>              
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">DevOps on AWS Specialization</h4>
+              <h5 style="color: #007EA7; font-weight: 600;">Coursera</h5>              
             </div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Soft Skills</h3>
-            <div class="resume-item">
-              <h4>Strong analytical and problem-solving skills</h4>
-            </div><!-- Edn Resume Item -->
-            
-            <div class="resume-item">
-              <h4>Excellent communication and collaboration abilities</h4>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Detail-oriented with a strong focus on quality</h4>
+            <h3 class="resume-title" style="font-size: 1.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.8rem; border-bottom: 2px solid #007EA7;">Soft Skills</h3>
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 0.8rem; color: #555; font-size: 0.95rem; display: flex; align-items: flex-start;">
+                  <i class="bi bi-check-circle" style="color: #007EA7; margin-right: 0.8rem; flex-shrink: 0; margin-top: 0.2rem;"></i>
+                  Strong analytical and problem-solving skills
+                </li>
+                <li style="margin-bottom: 0.8rem; color: #555; font-size: 0.95rem; display: flex; align-items: flex-start;">
+                  <i class="bi bi-check-circle" style="color: #007EA7; margin-right: 0.8rem; flex-shrink: 0; margin-top: 0.2rem;"></i>
+                  Excellent communication and collaboration abilities
+                </li>
+                <li style="color: #555; font-size: 0.95rem; display: flex; align-items: flex-start;">
+                  <i class="bi bi-check-circle" style="color: #007EA7; margin-right: 0.8rem; flex-shrink: 0; margin-top: 0.2rem;"></i>
+                  Detail-oriented with a strong focus on quality
+                </li>
+              </ul>
             </div><!-- Edn Resume Item -->
 
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Quality Assurance Engineer (Remote)</h4>
-              <h5>2018 - Present</h5>
-              <p><em>The Software Practice, Singapore </em></p>
-              <ul>
-                <li>Conducted functionality, regression, integration, UI, smoke, exploratory, stress, and performance testing to ensure
-                robust software quality and performance.</li>
-                <li>Developed and executed detailed, comprehensive, and structured test plans and cases.</li>
-                <li>Mentored QA engineers on automated testing techniques and critical strategies, improving team proficiency and testing
-                quality.</li>
-                <li>Successfully delivered multiple Singapore government projects with the project teams</li>
+            <h3 class="resume-title" style="font-size: 1.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.8rem; border-bottom: 2px solid #007EA7;">Professional Experience</h3>
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">QA Automation Engineer (Hybrid)</h4>
+              <h5 style="color: #007EA7; font-weight: 600; margin-bottom: 0.5rem;">Jan 2025 - Present</h5>
+              <p style="font-style: italic; color: #007EA7; margin-bottom: 0.8rem;"><em>Sitecore (via IGT1) – Content Hub, Content Operations</em></p>
+              <ul style="list-style: none; padding: 0; margin-bottom: 0;">
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Designed and maintained scalable E2E automation using Playwright with TypeScript, increasing test coverage and reducing manual testing overhead.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Validated new features across Content Hub platform, ensuring quality through comprehensive testing across bi-weekly release cycles.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Collaborated with cross-functional teams in an Agile/Scrum environment to ensure high-quality enterprise digital experience platform.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Implemented LLM-based evaluation system ("LLM as a Judge") to assess AI-generated content quality, now deployed and running in production.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Designed and maintained evaluation pipelines for AI outputs, continuously improving evaluation metrics and test scenarios.</li>
+                <li style="color: #555; font-size: 0.95rem;">Performed feature testing and full QA lifecycle activities to ensure reliability of Sitecore Content Hub at enterprise scale.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">Quality Assurance Engineer (Remote)</h4>
+              <h5 style="color: #007EA7; font-weight: 600; margin-bottom: 0.5rem;">2018 - 2024</h5>
+              <p style="font-style: italic; color: #007EA7; margin-bottom: 0.8rem;"><em>The Software Practice, Singapore </em></p>
+              <ul style="list-style: none; padding: 0; margin-bottom: 0;">
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Conducted functionality, regression, integration, UI, smoke, exploratory, stress, and performance testing to ensure robust software quality and performance.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Developed and executed detailed, comprehensive, and structured test plans and cases.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Mentored QA engineers on automated testing techniques and critical strategies, improving team proficiency and testing quality.</li>
+                <li style="color: #555; font-size: 0.95rem;">Successfully delivered multiple Singapore government projects with the project teams</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Hyperflex Innovations, Sri Lanka</em></p>
-              <ul>
-                <li>Designed, developed, and tested .NET-based web applications using .NET, HTML, CSS, and other technologies, ensuring
-                timely delivery of high-quality, user-friendly solutions.</li>
-                <li>Designed and Implemented MySQL/SQL databases, and utilized ORM frameworks such as Entity Framework to streamline
-                database interactions, significantly improving application performance.</li>
-                <li>Translated functional requirements into actionable implementation recommendations for websites.</li>
-                <li>Collaborated with technology leads to identify and implement optimal solutions, enhancing project efficiency and
-                effectiveness.</li>
+            <div class="resume-item" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #007EA7; font-weight: 700; margin-bottom: 0.5rem;">Software Developer</h4>
+              <h5 style="color: #007EA7; font-weight: 600; margin-bottom: 0.5rem;">2017 - 2018</h5>
+              <p style="font-style: italic; color: #007EA7; margin-bottom: 0.8rem;"><em>Hyperflex Innovations, Sri Lanka</em></p>
+              <ul style="list-style: none; padding: 0; margin-bottom: 0;">
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Designed, developed, and tested .NET-based web applications using .NET, HTML, CSS, and other technologies, ensuring timely delivery of high-quality, user-friendly solutions.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Designed and Implemented MySQL/SQL databases, and utilized ORM frameworks such as Entity Framework to streamline database interactions, significantly improving application performance.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Translated functional requirements into actionable implementation recommendations for websites.</li>
+                <li style="color: #555; font-size: 0.95rem;">Collaborated with technology leads to identify and implement optimal solutions, enhancing project efficiency and effectiveness.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -526,12 +497,10 @@
               <h4>Software Developer (Intern/Full Time)</h4>
               <h5>2016 - 2017</h5>
               <p><em>RyIT International Pvt. Ltd, Sri Lanka</em></p>
-              <ul>
-                <li>o Built features and fixed bugs in applications being developed, contributing to smoother development cycles and
-                enhanced application functionality.</li>
-                <li>o Assisted senior engineers in building proof-of-concepts to validate assumptions during system architecture.</li>
-                <li>o Collaborated with senior engineers in writing performance test scripts and investigating and debugging performance
-                bottlenecks.</li>
+              <ul style="list-style: none; padding: 0; margin-bottom: 0;">
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Built features and fixed bugs in applications being developed, contributing to smoother development cycles and enhanced application functionality.</li>
+                <li style="margin-bottom: 0.5rem; color: #555; font-size: 0.95rem;">Assisted senior engineers in building proof-of-concepts to validate assumptions during system architecture.</li>
+                <li style="color: #555; font-size: 0.95rem;">Collaborated with senior engineers in writing performance test scripts and investigating and debugging performance bottlenecks.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -939,11 +908,11 @@
     </section--><!-- /Testimonials Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section" style="background: linear-gradient(135deg, rgba(0,126,167,0.02) 0%, rgba(0,126,167,0.05) 100%); padding-top: 4rem; padding-bottom: 4rem;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>        
+        <h2 style="font-size: 2.5rem; font-weight: 700; color: #007EA7; margin-bottom: 1rem; letter-spacing: -0.5px;">Contact</h2>        
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -953,39 +922,12 @@
           <div class="col">
 
             <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>284/5, Mahasen Mawatha, Negombo Road, Kurunegala, Sri Lanka, 60000</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Me</h3>
-                  <p>+94 71 456 3265</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>kishan.thantiriwatta@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.12)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)';\">\n                <i class="bi bi-geo-alt flex-shrink-0" style="font-size: 1.5rem; color: #007EA7; margin-right: 1rem;"></i>\n                <div>\n                  <h3 style="color: #007EA7; font-weight: 700; font-size: 1.1rem;">Address</h3>\n                  <p style="color: #555; margin: 0;">284/5, Mahasen Mawatha, Negombo Road, Kurunegala, Sri Lanka, 60000</p>\n                </div>\n              </div><!-- End Info Item -->\n\n              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.12)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)';\">\n                <i class="bi bi-telephone flex-shrink-0" style="font-size: 1.5rem; color: #007EA7; margin-right: 1rem;"></i>\n                <div>\n                  <h3 style="color: #007EA7; font-weight: 700; font-size: 1.1rem;">Call Me</h3>\n                  <p style="color: #555; margin: 0;">+94 71 456 3265</p>\n                </div>\n              </div><!-- End Info Item -->\n\n              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400" style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,126,167,0.12)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)';\">\n                <i class="bi bi-envelope flex-shrink-0" style="font-size: 1.5rem; color: #007EA7; margin-right: 1rem;"></i>\n                <div>\n                  <h3 style="color: #007EA7; font-weight: 700; font-size: 1.1rem;">Email Us</h3>\n                  <p style="color: #555; margin: 0;">kishan.thantiriwatta@gmail.com</p>\n                </div>\n              </div><!-- End Info Item -->
 
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3955.8518282444247!2d80.34806507500188!3d7.48160899253034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjgnNTMuOCJOIDgwwrAyMScwMi4zIkU!5e0!3m2!1sid!2sid!4v1718875853959!5m2!1sid!2sid"
-                width="100%" height="270px" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <!--div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                width="100%" height="270px" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>\n            </div>\n          </div>\n\n          <!--div class="col-lg-7">\n            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
               data-aos-delay="200">
               <div class="row gy-4">
 
